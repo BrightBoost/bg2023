@@ -12,3 +12,6 @@ var hours = Math.abs(Math.floor(diff / 60));
 var minutes = Math.abs(diff % 60);
 
 console.log("The difference:", hours, ":", minutes);
+
+let msg = `The hours are ${hours}`;
+let msg1 = "The hours are " + hours;

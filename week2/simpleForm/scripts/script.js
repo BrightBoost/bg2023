@@ -13,6 +13,9 @@ function processForm() {
     let color1 = document.getElementById("color1").value;
     let color2 = document.getElementById("color2").value;
 
+    console.log(nameInput);
+    console.dir(nameInput);
+
     // change the styling
     document.body.style.backgroundColor = color1;
     document.body.style.color = color2;
