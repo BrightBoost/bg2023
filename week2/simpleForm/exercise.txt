@@ -1,0 +1,5 @@
+I want you to create a web page with a small form, asking for a username, age and two favorite colors. Below the form is an empty paragraph.
+
+Then below the form, add a button (not a submit button). When the button is clicked, trigger a JS function that:
+- adds text to the paragraph below the form saying for example: Welcome John31
+- it changes the background color to color 1 and the font color to color 2
