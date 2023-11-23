@@ -66,3 +66,10 @@ let cat = { name: "felix", age: 10 };
 for (let key in cat) {
     console.log(cat[key]);
 }
+
+let someLanguages = ["Python", "JavaScript", "C#"];
+
+// when you do "in" on the array, it gives you the indexes
+for(let i in someLanguages) {
+    console.log(someLanguages[i]);
+}
