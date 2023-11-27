@@ -4,6 +4,7 @@ let rooms = [
     ["Lewis", "Louisa", "Sophie"]
 ];
 
+
 rooms
     .forEach(
         room => room
