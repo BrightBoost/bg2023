@@ -8,6 +8,11 @@ app.use(cors());
 
 // Create application/x-www-form-urlencoded parser
 let urlencodedParser = express.urlencoded({ extended: false });
+
+//need the next to lines to accept json bodies TANDEM
+let urlencodedParser2 = express.urlencoded({ extended: true });
+app.use(urlencodedParser2);
+
 app.use(express.json());
 
 ////////////////////////////////////////////////////////////
@@ -53,7 +58,7 @@ app.get("/api/courses/:id", function (req, res) {
 });
 
 // POST a course to be added
-app.post("/api/courses", urlencodedParser, function (req, res) {
+app.post("/api/courses", /*TANDEM */ urlencodedParser2, function (req, res) {
     console.log("LOG: Got a POST request to add a course");
     console.log("LOG: Message body ------->");
     console.log(JSON.stringify(req.body));
@@ -192,7 +197,7 @@ app.delete("/api/courses/:id", function (req, res) {
 /////////////////////////////////////////////////////
 // Start the server
 
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
 let server = app.listen(8081, function () {
     let port = server.address().port;
