@@ -238,7 +238,7 @@ app.delete("/api/todos/:id", function (req, res) {
    data = JSON.parse(data);
 
    // find the index of the one that the delete request is for
-   let todoIndex = data.findIndex(todo => todo.id = toBeDeletedId);
+   let todoIndex = data.findIndex(todo => todo.id == toBeDeletedId);
 
    // delete that todo from the list
    if(todoIndex != -1) {
