@@ -1,2 +1,3 @@
 <input #nameInput type="text">
 <button (click)="addName(nameInput.value)">Click me</button>
+<p>The date is {{ date | date:"yyyy MMMM dd" | uppercase }}</p>
