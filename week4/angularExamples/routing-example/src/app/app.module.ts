@@ -7,12 +7,13 @@ import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ProductComponent } from './product/product.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
-  { path: "home", component: HomeComponent },
-  { path: "products", component: ProductComponent },
-  { path: "contact", component: ContactUsComponent },
-  { path: "", redirectTo: "/home", pathMatch: "full" },
+  { path: "home", component: HomeComponent, pathMatch: "full" },
+  { path: "products", component: ProductComponent, pathMatch: "full"   },
+  { path: "contact", component: ContactUsComponent, pathMatch: "full"   },
+  { path: "", redirectTo: "home", pathMatch: "full" }
 
 ];
 
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     HomeComponent,
     ContactUsComponent,
     ProductComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
