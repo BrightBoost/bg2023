@@ -10,16 +10,36 @@
 10. Bonus: Create different wishlists for different users by adding a username to the wish list. Make a dropdown with all the users from the wishlist, and when one is selected only show those wishes.
 
 ```javascript
-const wishlist = [
-    {id: 1, name: "MacBook Pro"},
-    {id: 2, name: "High-Resolution Dual Monitors"},
-    {id: 3, name: "Ergonomic Chair"},
-    {id: 4, name: "Subscription to Coding Courses"},
-    {id: 5, name: "Noise-Cancelling Headphones"},
-    {id: 6, name: "Professional Development Books"},
-    {id: 7, name: "Software Licenses (e.g., IDEs)"},
-    {id: 8, name: "Desk Organizer Set"},
-    {id: 9, name: "High-Speed Internet Subscription"},
-    {id: 10, name: "Coffee Machine"}
+const wishlist = [ 
+    {
+        username: "Lovro", 
+        wishlist: [
+            {id: 1, name: "MacBook Pro"},
+            {id: 2, name: "High-Resolution Dual Monitors"},
+            {id: 3, name: "Ergonomic Chair"},
+            {id: 4, name: "Subscription to Coding Courses"},
+            {id: 5, name: "Noise-Cancelling Headphones"},
+            {id: 6, name: "Professional Development Books"},
+            {id: 7, name: "Software Licenses (e.g., IDEs)"},
+            {id: 8, name: "Desk Organizer Set"},
+            {id: 9, name: "High-Speed Internet Subscription"},
+            {id: 10, name: "Coffee Machine"}
+        ]
+    },
+    {
+        username: "Lewis", 
+        wishlist: [
+            {id: 1, name: "MacBook Pro"},
+            {id: 2, name: "High-Resolution Dual Monitors"},
+            {id: 3, name: "Ergonomic Chair"},
+            {id: 4, name: "Subscription to Coding Courses"},
+            {id: 5, name: "Noise-Cancelling Headphones"},
+            {id: 6, name: "Professional Development Books"},
+            {id: 7, name: "Software Licenses (e.g., IDEs)"},
+            {id: 8, name: "Desk Organizer Set"},
+            {id: 9, name: "High-Speed Internet Subscription"},
+            {id: 10, name: "Coffee Machine"}
+        ]
+    }
 ];
 ```
