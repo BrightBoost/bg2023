@@ -8,6 +8,7 @@ import { MyComponentComponent } from './my-component/my-component.component';
 import { ItemListComponent } from './item-list/item-list.component';
 import { BindingExplainedComponent } from './binding-explained/binding-explained.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { EventChangeSelectComponent } from './event-change-select/event-change-select.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     MyComponentComponent,
     ItemListComponent,
     BindingExplainedComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    EventChangeSelectComponent
   ],
   imports: [
     BrowserModule,
