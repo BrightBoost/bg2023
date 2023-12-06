@@ -1,0 +1,5 @@
+<app-header [example]="example"></app-header>
+<h1>Hello {{ title }} for {{ name }}</h1>
+<input type="text" #exampleValue>
+<button (click)="sayHi()">Click me</button>
+<button (click)="changeExample(exampleValue.value)">Change example value</button>
