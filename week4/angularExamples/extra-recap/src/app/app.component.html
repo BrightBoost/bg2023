@@ -1,4 +1,8 @@
 <app-header [example]="example"></app-header>
+<router-outlet></router-outlet>
+
+
+<!-- this would normally be in a component -->
 <h1>Hello {{ title }} for {{ name }}</h1>
 <input type="text" #exampleValue>
 <button (click)="sayHi()">Click me</button>
