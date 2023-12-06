@@ -1,0 +1,6 @@
+<form ngNativeValidate (submit)="submittingTheForm($event)">
+    <input type="text" [(ngModel)]="name" name="firstname" required><br>
+    <input type="text" [(ngModel)]="name" name="secondfirstname"><br>
+    <button type="submit">Let's go</button>
+</form>
+{{ name }}
