@@ -10,9 +10,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
-  { path: "home", component: HomeComponent, pathMatch: "full" },
-  { path: "products", component: ProductComponent, pathMatch: "full"   },
-  { path: "contact", component: ContactUsComponent, pathMatch: "full"   },
+  { path: "home", component: HomeComponent },
+  { path: "products", component: ProductComponent   },
+  { path: "contact", component: ContactUsComponent   },
   { path: "", redirectTo: "home", pathMatch: "full" }
 
 ];
