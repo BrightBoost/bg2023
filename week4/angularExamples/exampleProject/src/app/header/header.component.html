@@ -1,1 +1,4 @@
-<h3>Welcome {{ username }}</h3>
+<h3 [ngClass]="usernameProps" *ngIf="username != ''; else noUserLoggedIn">Welcome {{ username }}</h3>
+<ng-template #noUserLoggedIn>
+    Please log in.
+</ng-template>

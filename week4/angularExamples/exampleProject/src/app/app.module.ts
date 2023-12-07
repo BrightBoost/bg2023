@@ -12,6 +12,8 @@ import { EventChangeSelectComponent } from './event-change-select/event-change-s
 import { LoginComponent } from './login/login.component';
 import { LameGameComponent } from './lame-game/lame-game.component';
 import { ScoreBarComponent } from './score-bar/score-bar.component';
+import { ColorPickerComponent } from './color-picker/color-picker.component';
+import { PopulateSelectComponent } from './populate-select/populate-select.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ScoreBarComponent } from './score-bar/score-bar.component';
     EventChangeSelectComponent,
     LoginComponent,
     LameGameComponent,
-    ScoreBarComponent
+    ScoreBarComponent,
+    ColorPickerComponent,
+    PopulateSelectComponent
   ],
   imports: [
     BrowserModule,

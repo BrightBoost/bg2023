@@ -1,0 +1,19 @@
+<select>
+    <option *ngFor="let person of people" [value]="person">{{ person }}</option>
+</select>
+
+<select>
+    <option *ngFor="let person of people2" [value]="person.id">{{ person.name }}</option>
+</select>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+    </tr>
+    <tr *ngFor="let person of people2">
+        <td>{{person.id}}</td>
+        <td>{{person.name}}</td>
+    </tr>
+
+</table>

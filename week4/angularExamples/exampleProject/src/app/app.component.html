@@ -1,5 +1,15 @@
-<!-- <app-header [username]="name"></app-header>
-<app-login (loginEvent)="setUsername($event)"></app-login> -->
+<app-header [username]="name"></app-header>
+<app-login (loginEvent)="setUsername($event)"></app-login>
+
+<br>
 
 <app-score-bar [nrClicksHeart]="heartClicked" [nrClicksDino]="dinoClicked"></app-score-bar>
 <app-lame-game (dinosaurClickedEvent)="onDinoClicked()" (heartClickedEvent)="onHeartClicked()"></app-lame-game>
+
+<br>
+
+<app-color-picker></app-color-picker>
+
+<br>
+
+<app-populate-select></app-populate-select>
