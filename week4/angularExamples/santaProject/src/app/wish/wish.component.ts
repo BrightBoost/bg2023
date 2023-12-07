@@ -28,6 +28,10 @@ export class WishComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe((params) => {
       this.wish = this.wishes.find(w =>  w.id == params["id"]);
+      if(!this.wish) {
+        this.wishes.push({id: params["id"], name: params["name"]});
+        this.wish = this.wishes[this.wishes.length - 1];
+      }
     })
   }
 

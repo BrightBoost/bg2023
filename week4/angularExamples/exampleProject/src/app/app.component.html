@@ -1,1 +1,5 @@
-<app-event-change-select></app-event-change-select>
+<!-- <app-header [username]="name"></app-header>
+<app-login (loginEvent)="setUsername($event)"></app-login> -->
+
+<app-score-bar [nrClicksHeart]="heartClicked" [nrClicksDino]="dinoClicked"></app-score-bar>
+<app-lame-game (dinosaurClickedEvent)="onDinoClicked()" (heartClickedEvent)="onHeartClicked()"></app-lame-game>

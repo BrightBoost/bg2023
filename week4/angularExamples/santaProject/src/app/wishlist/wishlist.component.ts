@@ -24,10 +24,14 @@ export class WishlistComponent {
 
   }
 
-  getWishPage(id: number) {
+  getWishPage(id: number, name: string) {
     this.router.navigate(["/wish"], {
-      queryParams: { id: id }
+      queryParams: { id: id, name: name }
     });
+  }
+
+  addWish(wishName: string) {
+    this.wishes.push({id: this.wishes.length + 1, name: wishName});
   }
 
 }

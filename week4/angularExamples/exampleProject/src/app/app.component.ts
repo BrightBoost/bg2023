@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  heartClicked: number = 0;
+  dinoClicked: number = 0;
+  name: string = "";
   title = 'exampleProject';
   varAge: number = 32;
   fields: string[] = ["id", "name", "price"];
@@ -34,5 +37,19 @@ export class AppComponent {
 
   onChangeSortOrder(text: string) {
     this.sortOrder = text;
+  }
+
+  setUsername(name: string) {
+    this.name = name;
+  }
+
+  onHeartClicked() {
+    console.log("💛");
+    this.heartClicked++;
+  }
+
+  onDinoClicked() {
+    console.log("🦖");
+    this.dinoClicked++;
   }
 }

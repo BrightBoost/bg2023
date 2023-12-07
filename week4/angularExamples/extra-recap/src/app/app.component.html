@@ -4,6 +4,7 @@
 
 <!-- this would normally be in a component -->
 <h1>Hello {{ title }} for {{ name }}</h1>
+<button (click)="changeName()">Change name</button>
 <input type="text" #exampleValue>
 <button (click)="sayHi()">Click me</button>
 <button (click)="changeExample(exampleValue.value)">Change example value</button>

@@ -17,4 +17,7 @@ export class AppComponent {
   changeExample(text: string) {
     this.example = text;
   }
+  changeName() {
+    this.name = "blabla";
+  }
 }

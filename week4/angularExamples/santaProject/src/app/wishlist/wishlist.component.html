@@ -1,6 +1,8 @@
 <h1>Wishlist</h1>
 <ul>
     <li *ngFor="let wish of wishes">
-      <a (click)="getWishPage(wish.id)">{{ wish.name }}</a>
+      <a [id]="wish.id" (click)="getWishPage(wish.id, wish.name)">{{ wish.name }}</a>
     </li>
 </ul>
+<input type="text" #wishNameField>
+<button (click)="addWish(wishNameField.value)">Add wish</button>
