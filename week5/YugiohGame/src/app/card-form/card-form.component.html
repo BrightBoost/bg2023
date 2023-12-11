@@ -1,0 +1,15 @@
+<form (submit)="onSubmit()" ngNativeValidate>
+    <label for="name">Name:</label>
+    <input #name="ngModel" type="text" name="name" [(ngModel)]="card.name" required minlength="2">
+    <div *ngIf="name.invalid">
+        <div *ngIf="name.errors && name.errors['required']">You must fill out name</div>
+        <div *ngIf="name.errors && name.errors['minlength']">At least 2 chars</div>
+    </div>
+    <br>
+    <label for="attack">Attack:</label>
+    <input type="number" name="attack" [(ngModel)]="card.attack">
+    <br>
+    <label for="description">Description:</label>
+    <input type="text" name="description" [(ngModel)]="card.description">
+    <input type="submit" value="submit">
+</form>
