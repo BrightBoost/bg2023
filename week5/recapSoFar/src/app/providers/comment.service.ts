@@ -19,4 +19,9 @@ export class CommentService {
   getComments(): Observable<Comment[]> {
     return this.http.get("https://jsonplaceholder.typicode.com/comments", this.httpOptions).pipe(map(res => <Comment[]>res));
   }
+
+  postComment(comment: Comment): Observable<Comment> {
+    return this.http.post("https://jsonplaceholder.typicode.com/comments", comment, this.httpOptions)
+      .pipe(map(res => <Comment>res));
+  }
 }

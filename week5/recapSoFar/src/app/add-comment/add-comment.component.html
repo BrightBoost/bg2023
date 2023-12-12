@@ -1,0 +1,8 @@
+<form (submit)="submitComment()">
+    <input type="number" name="postId" [(ngModel)]="comment.postId">
+    <input type="text" name="body" [(ngModel)]="comment.body">
+    <input type="text" name="email" [(ngModel)]="comment.email">
+    <input type="text" name="name" [(ngModel)]="comment.name">
+    <input type="submit" value="add comment">
+</form>
+
