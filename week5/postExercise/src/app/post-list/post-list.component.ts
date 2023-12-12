@@ -19,5 +19,6 @@ export class PostListComponent implements OnInit {
         console.log(data);
       }
     );
+    
   }
 }
