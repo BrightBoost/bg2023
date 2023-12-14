@@ -1,0 +1,5 @@
+1. We're going to create a mini quiz application. Let's start by creating a new angular project called QuizApp.
+2. We will need a few components: quiz, scoreboard, home
+- Quiz is the main object that holds all questions (including a question array) and has methods to add/remove questions. Use an ngFor to iterate over the questions. Don't show the answers until an answer is selected. Display the answer in green if they answered correctly, display in red if they answered incorrectly. Use event binding for handling the user's selection.
+3. Bonus: In the scoreboard component, keep the score of correct answers as a counter. Use the @Input for getting the counter. And the @Output on Quiz to fire an event when the counter should increase.
+4. Set up routing to navigate to the homepage and the quiz page.
