@@ -1,0 +1,15 @@
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\bin\Debug\net6.0\learningCSharp.exe
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\bin\Debug\net6.0\learningCSharp.deps.json
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\bin\Debug\net6.0\learningCSharp.runtimeconfig.json
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\bin\Debug\net6.0\learningCSharp.dll
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\bin\Debug\net6.0\learningCSharp.pdb
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.csproj.AssemblyReference.cache
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.AssemblyInfoInputs.cache
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.AssemblyInfo.cs
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.csproj.CoreCompileInputs.cache
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.dll
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\refint\learningCSharp.dll
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.pdb
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\learningCSharp.genruntimeconfig.cache
+C:\Users\maaik\Documents\Training\BG\projects\week6\exampleApp\learningCSharp\learningCSharp\obj\Debug\net6.0\ref\learningCSharp.dll
