@@ -1,2 +1,28 @@
-Ho ho ho
-Ho ho ho
+string connStr = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Northwind;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+go to sql server object explore
+open the sql server thingy
+right click on the localdb......
+select new query
+paste in the sql containing the northwind db
+run the query
+refresh the sql server object explorer with the refresh icon
+check if your db is under the sql server you used
+to get conn str:
+right click on the name of db, select properties, if nothing shows up click around a bit in the tables or ask Tom, copy the value of connection string
+next step: 
+add system.data.sqlclient by going to solution explorer
+open the name of your solution
+right click on dependencies
+go to nuget package manager
+search for system.data.sqlclient
+click install
+in program do something like:
+string connStr = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Northwind;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+            SqlConnection conn = new SqlConnection(connStr);
+            conn.Open();
+            Console.WriteLine(connStr);
+            conn.Close();
+
+You Yesterday, 3:48 PM
+Microsoft.Extensions.Configuration.Json for exercise 2 in nuget manager
+using System.Data.SqlClient;
