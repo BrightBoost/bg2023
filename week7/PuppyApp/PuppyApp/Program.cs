@@ -39,6 +39,7 @@ namespace PuppyApp
             }
 
             app.UseHttpsRedirection();
+            app.UseCors();
 
             app.UseAuthorization();
 
